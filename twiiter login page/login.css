@@ -1,0 +1,129 @@
+*{
+    margin:3px;
+    padding:5px;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-color:rgb(235, 230, 230);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    width:80px;
+    margin-left:180px;
+}
+.main{
+    background-color:white;
+    width:500px;
+    height:650px;
+    border:1px solid rgb(177, 174, 174);
+    border-radius:10px;
+    box-shadow:0 0 40px rgb(214, 211, 211);
+    padding:30px 20px;
+}
+.first{
+    background-color:white;
+    width:300px;
+    margin-top:30px;
+    margin-left:75px;
+    border-radius:50px;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.5s;
+    border:1px solid rgb(223, 219, 219);
+    transition:0.5s;
+}
+.first:hover{
+    transition:0.5s;
+    border:2px solid blue;
+    letter-spacing:0.1em;
+}
+.second{
+    margin-top:20px;
+    background-color:white;
+    width:300px;
+    margin-left:75px;
+    border-radius:50px;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.5s;
+    border:1px solid rgb(223, 219, 219);
+    transition:0.5s;
+}
+.second:hover{
+    transition:0.5s;
+    border:2px solid blue;
+    letter-spacing:0.1em;
+}
+.third{
+    margin-left:200px;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:40px;
+}
+.fourth{
+    margin-left:68px;
+}
+.email{
+    margin-top:30px;
+    width:310px;
+    height:50px;
+    border:1px solid rgb(223, 219, 219);
+    border-radius:5px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.5s;
+}
+.email:hover{
+    transition:0.5s;
+    border:2px solid blue;
+    letter-spacing:0.1em;
+}
+button{
+    margin-top:15px;
+    margin-left:79px;
+    width:310px;
+    height:45px;
+    border-radius:50px;
+    color:white;
+    background-color:black;
+    border:2px solid black;
+    font-size:18px;
+}
+.fifth{
+    margin-top:20px;
+    background-color:white;
+    width:300px;
+    margin-left:80px;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    border-radius:50px;
+    border:1px solid rgb(223, 219, 219);
+    transition:0.5s;
+}
+.fifth:hover{
+    transition:0.5s;
+    border:2px solid blue;
+}
+.sixth{
+    margin-top:50px;
+    text-align:center;
+    color:rgb(75, 74, 74);
+    font-weight:bold;
+}
+a{
+    text-decoration:none;
+    transition:0.5s;
+}
+a:hover{
+    transition:0.5s;
+    text-decoration:underline;
+    letter-spacing:0.1em;
+}
+
